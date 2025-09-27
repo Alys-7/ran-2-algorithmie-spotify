@@ -1,6 +1,3 @@
-#(skip_rate > 30% ET listening_time < 100 min par jour)
-#OU (subscription_type == "Free" ET offline_listening == '0' ET ads_listened_per_week > 20 par semaine)
-
 from spotify import dataset
 
 user_to_revive = []
