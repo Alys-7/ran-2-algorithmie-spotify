@@ -9,3 +9,4 @@ while not id_in_dataset:
         if id == int(user["user_id"]):
             print(user)
             id_in_dataset = True
+            break
